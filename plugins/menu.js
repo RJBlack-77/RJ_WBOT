@@ -61,14 +61,6 @@ type  කරලා  sent  කරම්න.
 
 ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘
 ╰────
-%readmore`.trimStart(),
-  header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
-  footer: '╰────\n',
-  after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
-`,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
   try {
